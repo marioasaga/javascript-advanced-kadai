@@ -2,7 +2,6 @@
 let untyped = '';
 let typed = '';
 let score = 0;
-let lettercount = 0;
 
 // 必要なHTML要素の取得
 const untypedfield = document.getElementById('untyped');
@@ -126,6 +125,7 @@ const timer = () => {
       gameOver(id);
     }
   }, 1000);
+
 };
 
 // ゲームスタート時の処理
